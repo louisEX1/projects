@@ -1,12 +1,17 @@
 def scanner(products):
+    # set the price of the products
     ipd=549.99
     mbp=1399.99
     atv=109.5
     vga=30
+
+    # to count the no. of product that need to be paid
     count_ipd=0
     count_mbp=0
     count_atv=0
     count_vga=0
+
+    # to count the product that is free
     free_atv=0
     free_vga=0
 
