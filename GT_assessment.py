@@ -26,11 +26,13 @@ def scanner(products):
             count_vga+=1
         else:
             continue
+    #rule 1 : 3 for 2 deal on Apple TV
     if count_atv/3>=1:
         free_atv=(count_atv-count_atv%3)/3
+    #rule 2 : discount on bulk purchase on Super iPad
     if count_ipd>4:
         ipd=499.99
-
+    #rule 3 : bundle vga adapter with MacBook Pro
     free_vga=count_mbp
 
     count_vga-=free_vga
