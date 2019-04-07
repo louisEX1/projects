@@ -27,7 +27,7 @@ def scanner(products):
         else:
             continue
     if count_atv/3>=1:
-        free_atv=count_atv/(count_atv-count_atv%3)
+        free_atv=(count_atv-count_atv%3)/3
     if count_ipd>4:
         ipd=499.99
 
